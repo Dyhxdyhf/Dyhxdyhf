@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profesionální Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body, html { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f0f0f0; color: #333; }
+    header { background: #1e3d59; color: #fff; padding: 40px 0; text-align: center; }
+    nav { background: #1e3d59; padding: 10px; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { width: 80%; margin: auto; padding: 40px 0; }
+    .cards { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); flex: 1 1 calc(33% - 20px); padding: 20px; }
+    .card h2 { margin-top: 0; }
+    footer { background: #1e3d59; color: #fff; text-align: center; padding: 20px; }
+    @media (max-width: 768px) { .cards { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header><h1>Vítejte na našem profesionálním webu</h1></header>
+  <nav><a href="#">Domů</a><a href="#">Služby</a><a href="#">Kontakt</a></nav>
+  <div class="container">
+    <section class="cards">
+      <div class="card"><h2>Služba A</h2><p>Kvalitní řešení pro vaše potřeby.</p></div>
+      <div class="card"><h2>Služba B</h2><p>Moderní technologie a profesionální přístup.</p></div>
+      <div class="card"><h2>Služba C</h2><p>Spolehlivost a preciznost.</p></div>
+    </section>
+  </div>
+  <footer>© 2023 Profesionální Web</footer>
+</body>
+</html>
